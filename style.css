@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* background-image:  url(starter-code/assets/mobile/image-host.jpg); */
+    background-repeat: no-repeat;
+    
+}
+.backgroundcontener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 9rem;
+}
+
+
+.background{
+    font-size: 4rem;
+
+}
+
+.buttondiv {
+    
+    display: flex;
+    gap: 3rem;
+}
+
+button img {
+    width: 15rem;
+}
+
+.buttonbackground2{
+    padding: 8rem;
+    background-color: black;
+}
+
+
+
+
+
+.allitems{
+    display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.2rem;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+header{ 
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+
+.circle{
+    background: rgba(84, 230, 175, 1);
+width: 5rem;
+height: 5rem;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3.6rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-top: 5.7rem;
+    align-items: center;
+}
+
+h2 {
+font-size: 2.6rem;
+font-weight: 300;
+line-height: 3.8rem;
+text-align: center;
+color: rgba(84, 230, 175, 1);
+
+
+}
+
+h2 span {
+font-size: 2.6rem;
+font-weight: 300;
+line-height: 3.8rem;
+text-align: center;
+}
+
+section p {
+    font-family: Chivo;
+font-size: 1.5rem;
+font-weight: 300;
+line-height: 2.5rem;
+text-align: center;
+color: rgba(194, 203, 229, 1);
+
+}
+
+.paragraphsconteiner{
+    display: flex;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+
+.paragraphsconteiner p {
+    color: rgba(90, 102, 138, 1);
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+footer {
+    padding: 4.5rem 2.4rem 0;
+    display: flex;
+    flex-direction: column;
+gap: 2rem;
+}
+
+footer input {
+    border-radius: 1rem;
+    padding: 1rem;
+    background: rgba(44, 52, 75, 1);
+border: none;
+}
+
+input::placeholder {
+    font-family: Chivo;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 2.8rem;
+text-align: left;
+padding-left: 2rem
+}
+
+
+button {
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.4979);
+    background: rgba(84, 230, 175, 1);
+    border-radius: 1rem;
+    padding: 0.4rem;;
+    border: none;
+}
+
+button p {
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 2.8rem;
+color: rgba(18, 23, 37, 1);
+
+}
+
+.paragraphemail{
+    display: none;
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 1.4rem;
+text-align: left;
+color: rgba(251, 62, 62, 1);
+
+}
+
+.backgroundimg{
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 3.8rem;
+    text-align: center;
+    background-color: black;
+padding: 0.4rem;
+margin-right: 15rem;
+}
+
+.backgroundimg p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+color: brown;
+
+}
+
+.backgroundparagraph {
+    font-size: 4rem;
+}
